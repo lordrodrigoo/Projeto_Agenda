@@ -1,0 +1,49 @@
+.vscode
+# Ignore os ambientes virtuais
+venv/
+env/
+venv
+
+
+# Ignore arquivos de configuração do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Ignore as pastas do Python compilado e cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore chaves e arquivos de credenciais
+*.env
+.env
+*.secret
+
+# Ignore logs e arquivos temporários
+*.log
+*.pot
+*.pyc
+*.pyo
+*.sqlite3
+*.db
+
+# Ignore pacotes instalados
+*.egg-info/
+.eggs/
+
+# Ignore arquivos criados pelo editor de código
+.vscode/
+.idea/
+*.swp
+
+# Ignore a pasta de migrações se não for parte do código fonte
+*/migrations/*
+
+# Ignore arquivos gerados por compilação
+dist/
+build/
+*.egg
+
+# Ignore os arquivos de estáticos e de mídia gerados
+staticfiles/
+media/
