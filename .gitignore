@@ -4,6 +4,12 @@ venv/
 env/
 venv
 
+# DJANGO
+static/
+media/
+project/local_settings.py
+
+
 
 # Ignore arquivos de configuração do sistema operacional
 .DS_Store
@@ -46,4 +52,3 @@ build/
 
 # Ignore os arquivos de estáticos e de mídia gerados
 staticfiles/
-media/
